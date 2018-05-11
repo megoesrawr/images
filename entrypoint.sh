@@ -13,7 +13,7 @@ echo ":/home/container$ ${MODIFIED_STARTUP}"
 
 if [ -f OXIDE_FLAG ] || [ "${OXIDE}" = 1 ]; then
     echo "Updating OxideMod..."
-    curl -sSL "https://github.com/OxideMod/Oxide.Rust/releases/download/latest/Oxide.Rust.zip" > oxide.zip
+    curl -sSL "https://github.com/OxideMod/Oxide/releases/download/latest/Oxide-Rust.zip" > oxide.zip
     unzip -o -q oxide.zip
     rm oxide.zip
     echo "Done updating OxideMod!"
